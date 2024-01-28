@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+}
+.right{
+    margin: 48px 80px 0px 80px;
+    width: 100%;
+}
+.right table{
+    width: 100%;
+    border: 1px solid #CFCFCF
+}
+.right table thead{
+background-color: #CFCFCF;
+}
+.right table td {
+    padding: 13px 41px 13px 41px;
+}
+.right table tr{
+    border-bottom: 1px solid #CFCFCF;
+}
+.Action{
+    display: flex;
+    gap: 7px;
+}
+.profile{
+    display: flex;
+    gap: 7px;
+}
+.pencel{
+    cursor: pointer;
+}

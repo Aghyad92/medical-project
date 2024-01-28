@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.container h2{
+font-family: Inter;
+font-size: 64px;
+font-weight: 400;
+line-height: 99px;
+letter-spacing: 0.015em;
+text-align: left;
+color: #9BCDF0;
+margin: 20px 0px 40px;
+}
+@media (max-width:767px) {
+    .container h2{
+        font-size: 52px;
+        margin-bottom: 2px;
+    }
+}
+.container p{
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 37px;
+letter-spacing: 0.015em;
+text-align: left;
+width: 738px;
+height: 205px;
+}
+@media (max-width:767px){
+    .container p{
+        width: 322px;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }  
+}
+.content{
+    margin-left: 60px;
+}
+@media (max-width:767px){
+    .container button{
+       margin: 15px 15px 0px;
+    }
+    }

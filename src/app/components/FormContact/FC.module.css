@@ -1,0 +1,122 @@
+.form{
+width: 589px;
+height: 832px;
+border-radius: 10px;
+border: 1px solid #25B4F8;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+@media (max-width:767px){
+    .form{
+        width: 390px;
+    }
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 8px;
+}
+.first,.last{
+    display: flex;
+    flex-direction: column;
+}
+#FirstName,
+#LastName{
+width: auto;
+height: 36px;
+padding: 12px 16px 12px 16px;
+border-radius: 10px;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px 0px #1018280D;
+}
+.form label{
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.015em;
+text-align: left;
+margin-bottom: 10px;
+}
+@media (max-width:767px) {
+    .form input{
+        width: auto;
+    }
+}
+.email{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 20px;
+}
+.email input{
+width: 465px;
+height: 36px;
+padding: 12px 16px 12px 16px;
+border-radius: 10px;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px 0px #1018280D;
+}
+@media (max-width:767px){
+    .email input{
+        width: auto;
+    }
+}
+.Date{
+ display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 20px;
+}
+.date{
+width: 445px;
+height: 36px;
+padding: 12px 16px 12px 16px;
+border-radius: 10px;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px 0px #1018280D;
+}
+.ld{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.Message{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 20px;
+}
+.Message textarea{
+Width: 445px;
+height:185px;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px 0px #1018280D;
+}
+@media (max-width:767px){
+    .Message textarea{
+        width: 310px;
+    } 
+}
+.btn{
+ width:208px;
+height: 55px;
+padding: 15px 30px 15px 30px;
+border-radius: 10px;
+background-color: #1376F8;
+margin-top: 40px;
+color: #fff;
+font-size: 16px;
+font-style: italic;
+font-weight: 100;
+line-height: 25px;
+letter-spacing: 0.015em;
+text-align: left;
+}
+.phone{
+    width: 445px;
+}

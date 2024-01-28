@@ -1,0 +1,28 @@
+.container{
+    margin-top: 100px;
+    margin-left: 24%;
+    width: 424px;
+    height: 189px;
+    background-color: #E6F6FE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.container h2{
+font-family: Roboto;
+font-size: 25px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0.015em;
+}
+.content{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+width: 100px;
+height: 40px;
+background-color: var(--primary-color);
+}

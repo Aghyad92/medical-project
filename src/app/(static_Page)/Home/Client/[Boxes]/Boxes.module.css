@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    Height:466px;
+    margin-left: 10px;
+}
+.box{
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 10px;
+    width: 413px;
+    height: 290px;
+}
+.box:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+.content{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.box p{
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.015em;
+text-align: left;
+
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.star{
+    color: #EC942C;
+    ;
+}

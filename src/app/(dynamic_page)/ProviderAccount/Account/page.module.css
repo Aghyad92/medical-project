@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    gap: 50px;
+}
+.container img:nth-child(1){
+    margin: 50px 300px;
+}
+.content input{
+    border: 1px solid;
+}
+.container .confirm{
+    display: none;
+}

@@ -1,0 +1,6 @@
+.container{
+    display: flex;
+}
+.right{
+    margin-top: 100px;
+}

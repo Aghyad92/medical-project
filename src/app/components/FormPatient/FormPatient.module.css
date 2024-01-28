@@ -1,0 +1,79 @@
+.form{
+    margin-top: 80px;
+}
+@media (max-width:767px) {
+    .form{
+        width: 390px;
+        margin-left: 7px;
+    }
+}
+.form input{
+width: 380px;
+height: 60px;
+border-radius: 12px;
+border: 1px solid black;
+position: relative;
+padding: 20px;
+}
+.user,
+.email,
+.password{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 32px;
+    align-items: center;
+    position: relative;
+}
+.user::after{
+    content: url("../../../Images/ic_baseline-edit.svg");
+    position: absolute;
+   left: 164px;
+}
+.email::after{
+    content: url("../../../Images/ic_baseline-edit.svg");
+    position: absolute;
+   left: 164px;
+}
+.password::after{
+    content: url("../../../Images/ic_baseline-edit.svg");
+    position: absolute;
+   left: 164px; 
+}
+.form label{
+font-size: 25px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0.015em;
+text-align: left;
+}
+.icon{
+    position: absolute;
+    right: 9px;
+}
+.email input{
+    margin-left: 48px;
+}
+.password input{
+    margin-left: 10px;
+}
+.edit{
+    margin: 56px 0px 0px 145px;
+}
+.btn{
+    width: 380px;
+    height: 60px;
+    background-color: var(--secondry-color);
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 100px;
+}
+@media (max-width:767px){
+    .btn{
+        width: 244px;
+    }
+}

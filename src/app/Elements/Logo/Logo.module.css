@@ -1,0 +1,16 @@
+.logo{
+    display: flex;
+    align-items: center;
+}
+.care{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+    background: linear-gradient(to right,#59c12e,#9bcdf0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}

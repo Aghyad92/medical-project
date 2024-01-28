@@ -1,0 +1,40 @@
+.box{
+    margin-top: 60px;
+    width: 331px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E6F6FE;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    .box p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    }
+    .product{
+        display: none;
+    }
+    .addphoto{
+width: 1161px;
+height: 944px;
+border-radius: 12px;
+border: 1px solid ;
+background-color: #FFFFFF;
+position: absolute;
+left: 132px;
+z-index: 5;
+}
+.addphoto p{
+font-family: Inter;
+font-size: 60px;
+font-weight: 400;
+line-height: 73px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--primary-color);
+}

@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container h1{
+    font-family: Robto;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: var(--secondry-color);
+    margin: 20px 0px 76px;
+    }

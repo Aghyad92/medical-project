@@ -1,0 +1,12 @@
+.button{
+    width: 380px;
+    height: 60px;
+    background-color: #74bcee;
+    color: #ffff;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+}

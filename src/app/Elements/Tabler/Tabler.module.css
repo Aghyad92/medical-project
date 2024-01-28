@@ -1,0 +1,7 @@
+.btn{
+width: 50px;
+height: 50px;
+padding: 10.42px 16.67px 10.42px 16.67px;
+border: 1px;
+background-color: var(--secondry-color);
+}

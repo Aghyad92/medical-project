@@ -1,0 +1,28 @@
+.text{
+    font-family: Roboto;
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 62px;
+   letter-spacing: 0.015em;
+   text-align: center;
+   color: var(--secondry-color);
+   margin-top: 50px;
+   }
+   .content{
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       margin-bottom: 50px;
+   }
+   .form{
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    margin-top: 50px; 
+    width: auto;
+   }
+   @media (max-width:767px) {
+      .form{
+        margin-left: 8px;
+        margin-bottom: 75px;
+      }
+   }

@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.text{
+font-size: 64px;
+font-weight: 700;
+line-height: 99px;
+letter-spacing: 0.015em;
+background: linear-gradient(to right,#59c12e,#9bcdf0);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+}
+.Image{
+width: 403px;
+height: 327px;
+margin-top: -76px;
+}

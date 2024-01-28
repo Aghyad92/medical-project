@@ -1,0 +1,18 @@
+.btn{
+    width: 380px;
+    height: 60px;
+    background-color: var(--secondry-color);
+    margin: 0px 50px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffff; 
+}
+@media (max-width:767px) {
+   .btn{
+    width: 290px;
+   } 
+}

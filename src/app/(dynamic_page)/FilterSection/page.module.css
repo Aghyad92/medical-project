@@ -1,0 +1,107 @@
+.container{
+    height: 1900px;
+}
+@media (max-width:767px){
+    .container{
+        height: auto;
+    }
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    background-color: #22ACF1;
+    padding-top: 50px;
+}
+@media (max-width:767px){
+    .content{
+        height:416px; 
+    } 
+}
+.content h2{
+font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+color:#FFFFFF;
+margin-bottom: 30px;
+}
+.search{
+    position: relative;
+    
+}
+.search input{
+width: 975px;
+height: 74px;
+box-shadow: 4px 4px 4px 0px #00000040;
+border-radius: 12px;
+padding-left: 80px;
+}
+@media (max-width:767px) {
+    .search input{
+        width: auto;
+        height: 50px;
+    } 
+}
+.bt{
+    width: 245px;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#22ACF1;
+    border-radius: 12px;
+    margin-left: 60px;
+}
+.btn{
+    margin-top: 52px;
+}
+@media (max-width:767px){
+    .btn{
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .bt{
+        margin-top:15px;
+    }
+}
+.icon{
+    position: absolute;
+    top: 25px;
+    left: 46px;
+}
+@media (max-width:767px){
+    .icon{
+        top: 15px;
+        left: 25px;
+    } 
+}
+.log{
+    position: absolute;
+    top: 20px;
+    left: 94%;
+    cursor: pointer;
+}
+@media (max-width:767px){
+    .log{
+        top: 10px;
+        left: 87%;
+    } 
+}
+.Doctor{
+    display: none;
+}
+.Services{
+    display: none;
+}
+.map{
+    display: none;
+}

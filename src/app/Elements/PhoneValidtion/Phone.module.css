@@ -1,0 +1,29 @@
+.Phone{
+margin-top: 40px;
+width: 445px;
+
+}
+@media (max-width:767px) {
+    .Phone{
+        width: auto;
+    }
+}
+.Phone label {
+    margin-bottom: 10px;
+}
+
+.PhoneInputInput {
+    width: 465px;
+    height: 50px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+.Phonen {
+    border-radius: 10px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    height: auto;
+}

@@ -1,0 +1,48 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 54px;
+    gap:32px;
+    width: 700px;
+}
+.user,
+.email,
+.password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.form input{
+width: 380px;
+height: 60px;
+border-radius: 12px;
+padding: 25px;
+box-shadow: 0px 4px 4px 0px #00000040;
+}
+.form label{
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0.015em;
+text-align: left;
+}
+.icon{
+    position: absolute;
+    right: 10px;
+}
+.btn{
+width: 380px;
+height: 60px;
+background-color: var(--primary-color);
+margin: 44px 202px 0px;
+border-radius: 10px;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0.015em;
+color: #ffff;
+}
