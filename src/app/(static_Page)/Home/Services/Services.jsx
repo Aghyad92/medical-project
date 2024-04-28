@@ -1,7 +1,10 @@
 import Tabler from "@/app/Elements/Tabler/Tabler"
 import styles from "./Services.module.css"
 import Product from './[product]/product'
-import Search from "@/app/Elements/Search/Search"
+import Image from 'next/image'
+import logoSearch from"@/Images/majesticons_search.svg"
+import logoSearch2 from"@/Images/solar_filter-bold-duotone.svg"
+
 
 export default function Services() {
   return (
@@ -35,8 +38,6 @@ export default function Services() {
             />
     </div>
     </din>
-   
-
     </div>
   )
 }
