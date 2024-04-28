@@ -19,7 +19,21 @@ export default function Services() {
     </div>
     <din className={styles.find}>
       <h4>Find service</h4>
-      <Search/>
+       <div className={styles.conatiner}>
+       <input type='search' placeholder='Search' id='search2' />
+       <Image className={styles.search}
+            src={logoSearch}
+            width={20}
+            height={20}
+            alt='Search'
+            />
+            <Image className={styles.log}
+            src={logoSearch2}
+            width={19}
+            height={20}
+            alt='Search'
+            />
+    </div>
     </din>
    
 
