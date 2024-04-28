@@ -10,7 +10,7 @@ export default function Search() {
   }
   return (
     <div className={styles.conatiner}>
-       <input type='search' placeholder='Search' id='search' onClick={handlerSearch}/>
+       <input type='search' placeholder='Search' id='search0' onClick={handlerSearch}/>
        <Image className={styles.search}
             src={logoSearch}
             width={20}
